@@ -41,7 +41,7 @@ for turn in range(5):
     if (guess_row < 0 or guess_row > 4) or (guess_col < 0 or guess_col > 4):
         print "Oops, that's not even in the ocean."
     elif board[guess_row][guess_col] == "S":
-        global ships_sunk
+        # global ships_sunk
         print "Congratulations! You sunk one of my battleship!"
         board[guess_row][guess_col] = "X"
         ships_sunk += 1
