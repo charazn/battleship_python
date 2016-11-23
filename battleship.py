@@ -21,7 +21,7 @@ ship_row = random_row(board)
 ship_col = random_col(board)
 board[ship_row][ship_col] = "S"
 
-print_board(board)
+# print_board(board)
 
 for turn in range(4):
     print "Turn", turn + 1
@@ -44,4 +44,4 @@ for turn in range(4):
 
         if turn == 3:
             print "Game Over"
-        print_board(board)
+        # print_board(board)
